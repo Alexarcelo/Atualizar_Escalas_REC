@@ -22,6 +22,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copie todo o conteúdo do diretório local para o contêiner
 COPY . .
 
-EXPOSE 8105
+EXPOSE 8112
 
-CMD ["streamlit", "run", "Atualizar_Escalas.py", "--server.port=8105"]
+CMD ["streamlit", "run", "Atualizar_Escalas.py", "--server.port=8112"]
